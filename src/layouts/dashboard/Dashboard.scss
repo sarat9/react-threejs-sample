@@ -1,0 +1,28 @@
+@import '../../styles/constants';
+
+.cardBannerContent {
+    text-align: 'center'
+}
+
+.cardBannerImageDiv {
+    float: left;
+    width: 25%;
+    height: 33%;
+    background: $themeColor;
+    margin-left: 0px;
+}
+
+.cardBannerImage {
+    width: 100%;
+    height: 100%;
+}
+
+.cardBanner:hover .cardBannerImageDiv {
+    padding: 10px
+}
+
+.cardInfo {
+    height: 140px;
+    width: 100%;
+    padding: 10px 0px 10px 0px
+}
